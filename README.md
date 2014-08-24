@@ -1,0 +1,4 @@
+duplom
+======
+
+Personal Gentoo overlay
