@@ -1,0 +1,14 @@
+<repositories version="1.0">
+	<repo quality="experimental" status="unofficial">
+		<name>duplom</name>
+		<description lang="en">Personal Gentoo Overlay</description>
+		<homepage>https://github.com/heaje/duplom</homepage>
+		<owner type="person">
+			<email>corey.shaw@gmail.com</email>
+			<name>Corey Shaw</name>
+		</owner>
+		<source type="git">https://github.com/heaje/duplom.git</source>
+		<source type="git">git://github.com/heaje/duplom.git</source>
+		<feed>https://github.com/heaje/duplom/commits/master.atom</feed>
+	</repo>
+</repositories>
