@@ -6,7 +6,7 @@ EAPI=5
 
 MY_PN="App-ClusterSSH"
 MODULE_AUTHOR="DUNCS"
-MODULE_VERSION="4.03_02"
+MODULE_VERSION="4.03_03"
 
 inherit eutils perl-module versionator
 
