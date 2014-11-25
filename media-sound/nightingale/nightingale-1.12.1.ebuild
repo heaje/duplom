@@ -12,7 +12,7 @@ TAG_ID="9b9c8bf"
 
 DESCRIPTION="Nightingale is a community support project for the powerful media player, Songbird"
 HOMEPAGE="http://getnightingale.com/"
-SRC_URI="http://github.com/nightingale-media-player/nightingale-hacking/tarball/${PN}-${PV} -> ${P}.tar.gz
+SRC_URI="http://github.com/nightingale-media-player/nightingale-hacking/archive/${P}.tar.gz -> ${P}.tar.gz
 	 amd64? ( mirror://sourceforge/ngale/${PV}-Build-Deps/linux-x86_64-${PV}-20130316-release-final.tar.lzma )
 	 x86? ( mirror://sourceforge/ngale/${PV}-Build-Deps/linux-i686-${PV}-20130316-release-final.tar.lzma )
 	 mirror://sourceforge/ngale/${PV}-Build-Deps/vendor-${PV}.zip"
@@ -62,7 +62,7 @@ DEPEND="${RDEPEND}
 	x11-libs/pango
 	media-libs/taglib"
 
-S="${WORKDIR}/nightingale-media-player-nightingale-hacking-${TAG_ID}"
+S="${WORKDIR}/nightingale-hacking-${P}"
 
 src_prepare() {
 	if use amd64; then
