@@ -15,8 +15,7 @@ SLOT="0"
 RDEPEND="dev-lang/perl
 	dev-perl/Linux-Smaps"
 
-src_compile() { :; }
-
 src_install() {
-	newbin smem.pl.${PV} smem || die
+	dobin smem
+	doman smem.8
 }
