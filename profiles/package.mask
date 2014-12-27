@@ -1,0 +1,3 @@
+# Masking 20071119_p1 due to it thinking it is a newer
+# version than 1.4
+=dev-util/smem-20071119_p1
