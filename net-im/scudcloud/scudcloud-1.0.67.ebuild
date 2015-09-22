@@ -32,10 +32,6 @@ RDEPEND="${DEPEND}"
 MY_PV=$(get_version_component_range 1-2)
 MY_S="${WORKDIR}/${P}/${PN}-${MY_PV}"
 MY_INSTALLDIR="/opt/scudcloud"
-src_prepare() {
-	epatch "${FILESDIR}/${P}.patch"
-}
-
 src_install() {
 	if use doc; then
 		dodoc README.md CONTRIBUTING.md
