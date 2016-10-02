@@ -5,8 +5,8 @@
 EAPI="2"
 
 inherit eutils user systemd
-MAGIC1="2413"
-MAGIC2="7caf41d"
+MAGIC1="2757"
+MAGIC2="24ffd60"
 #URI="http://nightlies.plexapp.com/directdl/plex-media-server/dist-ninja"
 URI="https://downloads.plex.tv/plex-media-server"
 DESCRIPTION="Plex Media Server is a free media library that is intended for use with a plex client available for OS X, iOS and Android systems. It is a standalone product which can be used in conjunction with every program, that knows the API. For managing the library a web based interface is provided."
